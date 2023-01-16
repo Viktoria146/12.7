@@ -6,4 +6,4 @@ VTB = round((float(per_cent['ВТБ']) * money / 100), 2)
 SBER = round((float(per_cent['СБЕР']) * money / 100), 2)
 deposit = [TKB, SKB, VTB, SBER]
 print('Накопленные средства за год вклада:', deposit)
-print(f"Максимальная сумма, которую вы можете заработать - {max(deposit)}")
+print(f"Максимальная сумма - {max(deposit)}")
